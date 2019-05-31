@@ -13042,11 +13042,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\Navarro\\Spac\\Spac\\Spac\\Spac.csproj",
+      "projectUniqueName": "D:\\Google drive\\Git\\APi-.Net\\Spac\\Spac.csproj",
       "projectName": "Spac",
-      "projectPath": "C:\\Users\\Henrique\\Desktop\\Navarro\\Spac\\Spac\\Spac\\Spac.csproj",
+      "projectPath": "D:\\Google drive\\Git\\APi-.Net\\Spac\\Spac.csproj",
       "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Henrique\\Desktop\\Navarro\\Spac\\Spac\\Spac\\obj\\",
+      "outputPath": "D:\\Google drive\\Git\\APi-.Net\\Spac\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -13067,8 +13067,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Henrique\\Desktop\\Navarro\\Spac\\Spac\\Infra\\Infra.csproj": {
-              "projectPath": "C:\\Users\\Henrique\\Desktop\\Navarro\\Spac\\Spac\\Infra\\Infra.csproj"
+            "D:\\Google drive\\Git\\APi-.Net\\Infra\\Infra.csproj": {
+              "projectPath": "D:\\Google drive\\Git\\APi-.Net\\Infra\\Infra.csproj"
             }
           }
         }
