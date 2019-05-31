@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spac", "Spac\Spac.csproj", "{1BD714F5-0A38-4DA2-A01E-BEBA98FFC415}"
+	ProjectSection(ProjectDependencies) = postProject
+		{937568D4-F7F1-4F16-A3E5-05BAA88D1AF5} = {937568D4-F7F1-4F16-A3E5-05BAA88D1AF5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{937568D4-F7F1-4F16-A3E5-05BAA88D1AF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BD714F5-0A38-4DA2-A01E-BEBA98FFC415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD714F5-0A38-4DA2-A01E-BEBA98FFC415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD714F5-0A38-4DA2-A01E-BEBA98FFC415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD714F5-0A38-4DA2-A01E-BEBA98FFC415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937568D4-F7F1-4F16-A3E5-05BAA88D1AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937568D4-F7F1-4F16-A3E5-05BAA88D1AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937568D4-F7F1-4F16-A3E5-05BAA88D1AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937568D4-F7F1-4F16-A3E5-05BAA88D1AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABF70EDD-7724-4E7E-AE07-7847B2302FA3}
+	EndGlobalSection
+EndGlobal

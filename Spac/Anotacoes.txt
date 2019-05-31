@@ -1,0 +1,19 @@
+// Enable-Migrations nuget adicionar
+//PM> A  adicionar schema modelo
+//Update-Database atualizar
+
+A aplicação está pronta para trabalhar com o EntityFramework conectando no MySql,
+contudo necessita-se utilizar o Migrations. Comparando com o, já depreciado, Asp.Net MVC, 
+o comando Enable-Migrations está obsoleto. Para habilitar o mesmo, basta adicionar uma Migration utilizando o seguinte comando no 
+Package Manager Console:
+
+— Add-Migration VersaoInicial
+
+Após executar este comando, será gerado um código referente às alterações que foram identificadas. Para persistir essas alterações,
+necessita-se executar o seguinte comando:
+
+— Update-Database
+
+Por fim, as modificações já serão persistidas no banco de dados. E para reverter a versão executada no Migrations, basta executar o seguinte código:
+
+— Remove-Migration
